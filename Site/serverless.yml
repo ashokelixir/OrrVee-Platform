@@ -1,0 +1,8 @@
+component: website
+name: site
+
+inputs:
+  src:
+    src: ./src
+    hook: ng build --prod
+    dist: ./dist/Horus
